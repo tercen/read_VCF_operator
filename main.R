@@ -2,9 +2,6 @@ library(tercen)
 library(dplyr)
 library(tidyr)
 
-options("tercen.workflowId" = "d330322c43363eb4f9b27738ef0042b9")
-options("tercen.stepId"     = "e27988aa-702c-41db-8fc6-47f3fa246ae0")
-
 ctx = tercenCtx()
 
 if (!any(ctx$cnames == "documentId")) stop("Column factor documentId is required") 
